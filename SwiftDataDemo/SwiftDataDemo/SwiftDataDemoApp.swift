@@ -11,8 +11,12 @@ import SwiftData
 @main
 struct SwiftDataDemoApp: App {
     var sharedModelContainer: ModelContainer = {
+        
+        //새로 생성한 데이터 스키마 추가
         let schema = Schema([
             Item.self,
+            ToDoItem.self
+            
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -25,7 +29,8 @@ struct SwiftDataDemoApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            ToDoItemView()
         }
         .modelContainer(sharedModelContainer)
     }

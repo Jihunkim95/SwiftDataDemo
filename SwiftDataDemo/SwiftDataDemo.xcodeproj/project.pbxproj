@@ -16,6 +16,7 @@
 		5C2F52542B3CFB830090F301 /* SwiftDataDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52532B3CFB830090F301 /* SwiftDataDemoUITests.swift */; };
 		5C2F52562B3CFB830090F301 /* SwiftDataDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52552B3CFB830090F301 /* SwiftDataDemoUITestsLaunchTests.swift */; };
 		5C2F52632B3CFD980090F301 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52622B3CFD980090F301 /* ToDoItem.swift */; };
+		5C2F52652B3D02520090F301 /* ToDoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C2F52642B3D02520090F301 /* ToDoItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		5C2F52532B3CFB830090F301 /* SwiftDataDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataDemoUITests.swift; sourceTree = "<group>"; };
 		5C2F52552B3CFB830090F301 /* SwiftDataDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5C2F52622B3CFD980090F301 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		5C2F52642B3D02520090F301 /* ToDoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				5C2F52372B3CFB800090F301 /* ContentView.swift */,
 				5C2F52392B3CFB800090F301 /* Item.swift */,
 				5C2F52622B3CFD980090F301 /* ToDoItem.swift */,
+				5C2F52642B3D02520090F301 /* ToDoItemView.swift */,
 				5C2F523B2B3CFB820090F301 /* Assets.xcassets */,
 				5C2F523D2B3CFB820090F301 /* SwiftDataDemo.entitlements */,
 				5C2F523E2B3CFB820090F301 /* Preview Content */,
@@ -267,6 +270,7 @@
 			files = (
 				5C2F52382B3CFB800090F301 /* ContentView.swift in Sources */,
 				5C2F523A2B3CFB800090F301 /* Item.swift in Sources */,
+				5C2F52652B3D02520090F301 /* ToDoItemView.swift in Sources */,
 				5C2F52632B3CFD980090F301 /* ToDoItem.swift in Sources */,
 				5C2F52362B3CFB800090F301 /* SwiftDataDemoApp.swift in Sources */,
 			);
